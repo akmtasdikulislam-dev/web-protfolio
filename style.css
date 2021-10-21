@@ -1,0 +1,72 @@
+body{
+    font-family: 'Signika Negative', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(128, 128, 128);
+}
+.half-width{
+    width: 40%;
+    padding: 5%;
+    float: left;
+}
+.highlight{
+    color: #F7A323;
+}
+img{
+    width: 55%;
+}
+button{
+    padding: 8px 25px;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(45deg, #F49A81,#FE6854);
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-image: linear-gradient(45deg, #FE6854,#F49A81);
+}
+#header{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;  
+}
+section{
+    height: 600px;
+}
+#middle{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    width: 40%;
+    margin: 3%;
+    padding: 1.5%;
+    float: left;
+    height: 250px;
+    box-shadow: 10px 10px 40px grey;
+}
+#forth{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#first{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, #F49A81,red);
+    border-image-slice: 1;
+    background-color: white;
+}
+#second{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan );
+    border-image-slice: 1;
+}
+#footer{
+    text-align: center;
+    
+}
